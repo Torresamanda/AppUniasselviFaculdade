@@ -1,0 +1,228 @@
+@import './configStyle/reset.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    max-width: 100%;
+    height: 53px;
+    background-color: #343b43;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 78px;
+}
+
+header h2 {
+    font-size: 18.5px;
+    color: #FFF;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 18px;
+}
+
+.navbar li a {
+    color: #77767c;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.navbar li a:hover {
+    color: #FFF;
+}
+
+main {
+    margin: 10px 130px;
+}
+
+.boxtitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.boxtitulo p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.boxtitulo span {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+section {
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.BoxInfosLeo {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxInfoRight {
+   margin: 25px 0px 0px 30px;
+}
+
+.infoRight {
+    width: 350px;
+}
+
+.infoRight h3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.infoRight p {
+    word-break: break-word;
+    margin: 12px 0px 25px 0px;
+    font-size: 16px;
+}
+
+.ulHabilidades {
+    list-style-type: circle;
+    margin-top: 20px;
+}
+
+.ulHabilidades li {
+    margin: 6px 30px;
+}
+
+.retratoLeo {
+    width: 60%;
+}
+
+.boxInfosSobre p {
+    margin-top: 16px;
+    font-size: 15.5px;
+    text-align: justify;
+}
+
+.boxInfosPortfolio {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 14px;
+
+}
+
+.infosPortfolio {
+    width: 290px;
+    height: 450px;
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.infosPortfolio img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.infosPortfolio h4 {
+    font-weight: bold;
+    margin: 18px 25px;
+}
+
+.infosPortfolio p {
+    margin: 0px 25px;
+}
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.formContato input {
+    margin-bottom: 12px;
+    height: 15px;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formContato textarea {
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    padding: 6px;
+    background-color: #288f37;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover {
+    background-color: #0e602f;
+}
+
+@media(max-width: 1300px) {
+    .infosPortfolio {
+        width: 215px;
+    }
+}
+
+@media(max-width: 900px) {
+    .BoxInfosLeo {
+        display: block;
+    }
+}
+
+footer {
+    max-width: 100%;
+    height: 53px;
+    background-color: #343b43;
+    color: #FFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 600px){
+    main {
+        margin: 10px 20px;
+    }
+    
+    header {
+        height: 62px;
+        flex-direction: column;
+    }
+
+    header h2 {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    nav {
+        margin-bottom: 15px;
+    }
+
+    .boxInfoRight {
+        margin: 15px 0px 0px 0px;
+    }
+
+    .infoRight {
+        width: 250px;
+    }
+}

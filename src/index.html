@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <title>Leonardo da Vinci</title>
+</head>
+
+<body>
+    <header>
+        <h2>Leonardo da Vinci</h2>
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfólio</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="boxtitulo">
+            <p>Leonardo da Vinci <span>Portfólio oficial</span></p>
+        </div>
+
+        <section>
+            <div class="BoxInfosLeo">
+                <img class="retratoLeo" src="./imgs/leonardo.jpeg" alt="leonardo da vinci">
+
+                <div class="boxInfoRight">
+                    <article class="infoRight">
+                        <h3>Quem Sou</h3>
+                        <p>Sou Leonardo di Ser Piero da Vinci, nasci em 15 de abril de 1452, fui um polímata nascido na
+                            atual Itália, fui um dos personagens mais importantes do Alto Renascimento.</p>
+                    </article>
+
+                    <article class="infoRight">
+                        <h3>Habilidades</h3>
+                        <ul class="ulHabilidades">
+                            <li>Cientista</li>
+                            <li>Matemático</li>
+                            <li>Engenheiro</li>
+                            <li>Inventor</li>
+                            <li>Anatomista</li>
+                            <li>Pintor</li>
+                            <li>Arquiteto</li>
+                            <li>Botânico</li>
+                            <li>Poeta</li>
+                            <li>Músico</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="boxInfosSobre">
+            <div class="boxtitulo">
+                <p id="sobre">Sobre <span>Um pouco da minha história</span></p>
+            </div>
+            <p>Sou filho ilegítimo de um notário, Piero da Vinci, e de uma camponesa, Caterina. Nasci em Vinci, na
+                região da Florença, fui edicado no ateliê do renomado pintor florentino, Verrocchio. Passei a maior
+                parte do início da vida profissional a serviço de Ludovico Sforza, em Milão. Também trabalhei em Veneza,
+                Roma e Bolonha, e passei meus últimos dias na França, numa casa que me foi presenteada pelo rei
+                Francisco I.</p>
+            <p>Sou conhecido até hoje, principalmente, como pintor. A Mona Lisa e A Última Ceia são as minhas pinturas
+                mais famosas, também são as mais reproduzidas e mais parodiadas de todos os tempos, e a fama se compara
+                apenas à Criação de Adão, de Michelangelo.</p>
+        </section>
+
+        <section>
+            <div class="boxtitulo">
+                <p id="portfolio">Portfólio <span>Algumas coisas que eu fiz</span></p>
+            </div>
+            <div class="boxInfosPortfolio">
+                <div class="infosPortfolio">
+                    <img src="./imgs/rolamento.jpg" alt="rolamento">
+                    <h4>Rolamento</h4>
+                    <p>Apesar da existência de rolamentos ser datada de período anterior ao nascimento de Cristo,
+                        Leonardo da Vinci aprimorou o dispositivo para diminuir a fricção entre as esferas. Hoje, os
+                        rolamentos são encontrados em praticamente tudo.</p>
+                </div>
+                <div class="infosPortfolio">
+                    <img src="./imgs/escafandro.jpg" alt="escafandro">
+                    <h4>Escafandro</h4>
+                    <p>O equipamento de mergulho, o objetivo era possibilitar o ataque de embarcações por baixo. O
+                        traje foi imaginado em couro, com visor de vidro para e canal respirador (snorkel) feito em
+                        cana.</p>
+                </div>
+                <div class="infosPortfolio">
+                    <img src="./imgs/maquina_voadora.png" alt="maquina voadora">
+                    <h4>Ornitóptero</h4>
+                    <p>É um equipamento de voo que obtém a sustentação e a propulsão a part do movimento alternativo
+                        das asas, como ocorre com algumas aves e/ou insetos.</p>
+                </div>
+                <div class="infosPortfolio">
+                    <img src="./imgs/helicoptero.jpg" alt="helicoptero">
+                    <h4>Helicóptero</h4>
+                    <p>Também conhecido como "parafuso voador", este helicóptero de Da Vinci é considerado uma de
+                        suas invenções mais estranhas e, de acordo com os cientistas, de pouca utilidade.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="boxtitulo">
+                <p id="contato">Contato <span>Fale com Leo</span></p>
+            </div>
+            <form class="formContato">
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Telefone">
+                <input type="text" placeholder="Assunto">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+            </form>
+            <button>Enviar mensagem!</button>
+        </section>
+    </main>
+    
+    <footer>
+        Copyright © Leo 2023
+    </footer>
+
+</body>
+
+</html>
